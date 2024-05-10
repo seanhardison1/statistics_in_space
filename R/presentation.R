@@ -3,11 +3,11 @@ library(tidyverse)
 library(sdmTMB)
 library(glmmTMB)
 library(broom)
-library(ggbreak)
 library(sf)
 library(gstat)
 library(rnaturalearth)
 library(raster)
+library(concaveman)
 
 # Set coordinate reference system
 ncrs <- "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD83 +units=km +no_defs"
